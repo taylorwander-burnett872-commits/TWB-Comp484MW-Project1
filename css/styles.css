@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
  
  *{
 
@@ -189,4 +190,232 @@ footer {
 
 .apply_link:hover{
     color: rgb(202,1,1);
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/20200210JR009_Medium_res.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}   
+
+.hero-content h1 {
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Michroma', sans-serif;
+}
+
+.cta-button {
+    background-color: rgb(202,1,1);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    display: inline-block;
+    font-family: 'Michroma', sans-serif;
+}
+
+.cta-button:hover{
+    background-color: rgb(150, 4, 4);
+}
+
+.historycont{
+    display: flex;
+}
+
+.history-hero-section{
+    height: 714px;
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/pablo-becerril-umbrella-lab-post1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+}
+
+h2{
+    font-size: xx-large;
+    font-family: 'Michroma', sans-serif;
+}
+
+.pagepromo{
+    display: flex;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    align-items: center;
+    text-align: center;
+    font-family: 'playfair display', serif;
+}
+
+
+.pagepromo p{
+    width: 100%;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: rgb(202,1,1);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid rgb(202,1,1);
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid rgb(179, 175, 175);
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent rgb(179, 175, 175);
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgb(179, 175, 175);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgb(179, 175, 175) transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.tcontent {
+  padding: 20px 30px;
+  background-color: rgb(179, 175, 175);
+  position: relative;
+  border-radius: 6px;
+}
+
+.newscont,.joincont{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    background-color: rgb(202,1,1);
+    color: white;
+    border-radius: 15px;
+    padding-left:  20px;
+    padding-right:  20px;
+    padding-bottom: 20px;
+}
+
+.hlink{
+    color: white;
+    text-decoration: none;
+}
+
+.hlink:hover{
+    text-decoration: underline;
+}
+
+.quote, .quote p{
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-section-directory {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/The_Umbrella_Corporation_Meeting.png);
+    background-size: cover;
+    background-position: top;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.dheader{
+    margin-bottom: 50px;
+    margin-right: 1280px;
+}
+
+.dheader h1{
+    font-family: "playfair display", serif;
+    font-weight: normal;
+}
+
+.exec_container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    gap: 80px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.exec_member{
+    flex-basis: calc(100% / 5);
+    padding: 10px;
 }
