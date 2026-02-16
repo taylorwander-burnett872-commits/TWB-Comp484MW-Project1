@@ -86,7 +86,7 @@ hr{
 .content{
     margin-top: 30px;
     text-align: center;
-    font: 1.6em Verdana;
+    font: 1.6em tahoma, sans-serif;
     width: 65%;
     margin-bottom: 10px;
 }
@@ -419,3 +419,179 @@ h2{
     flex-basis: calc(100% / 5);
     padding: 10px;
 }
+
+
+.newspreviewcont{
+    margin-left: 50px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap: 80px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newspreview{
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.articlecontainer{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    gap: 80px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article{
+    flex-basis: calc(100% / 4);
+    padding: 10px;
+}
+
+.article a, .article p{
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+}
+
+.article a:hover{
+    text-decoration: underline;
+}
+
+.article-hero{
+    height: 60vh;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.article-RPD{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/RPD.png);
+}
+
+.article-arklay{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/Spencer_Manor.png);
+}
+
+.article-ashford{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/EdwardAsh.png);
+}
+
+.article-hospital{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/hospital.png);
+}
+
+.article-sickness{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/tory-miles-tory-miles-billboard-fam-v01.jpg);
+}
+
+.article-stars{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/stars_office.png);
+}
+
+.article-RCIncident{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Images/Raccoon_City.png);
+}
+
+.article-header{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.article-header h1, .article-header p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.article-header p{
+    font-size: 1.2em;
+}
+
+.article-content{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.article-content h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flowRight {
+	float: right;
+	margin-left: 10px;
+}
+.flowLeft {
+	float: left;
+	margin-right: 10px;
+}
+
+.careersheader{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    background-color: rgb(202,1,1);
+    width: 80%;
+    margin-right: auto;
+    color: white;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 400px;
+    margin-bottom: 50px;
+}
+
+.careersheader h1{
+    font-family:'Times New Roman', Times, serif
+}
+
+.careersheader p{
+    margin-left: 210px;
+    font-size: large;
+}
+
+.jobcont{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+}
+
+.jobcont h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.jobcont p{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 300px;
+    color: grey;
+}
+
